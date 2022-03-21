@@ -1,4 +1,4 @@
-
+![](/rsschool-cv/myFoto.png)
 ## **Sergii Polushkin**        
 
 #### Junior Frontend Developer

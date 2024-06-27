@@ -22,6 +22,7 @@ responsibility for my work and tasks.
 - JavaScript
 - React
 - ReactNative
+- TypeScript
 - HTML
 - CSS (Bootstrap, SASS/SCSS)
 - Git/GitHub
@@ -46,10 +47,10 @@ function isIsogram(str) {
   - Enterprise economy
 - **RS-School**
   - React
-  - JavaScript
+  - JavaScript, TypeScript
 
 ### Languages
 
 - **Russian:** Native speaker
-- **Spain:** B2
+- **Spanish:** B2
 - **English:** A2

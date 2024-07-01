@@ -26,6 +26,7 @@ responsibility for my work and tasks.
 - HTML
 - CSS (Bootstrap, SASS/SCSS)
 - Git/GitHub
+- Figma
 - Blender
 
 ### Code Examples

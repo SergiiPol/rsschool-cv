@@ -2,7 +2,7 @@
 
 ## Sergii Polushkin
 
-### My Contact Info:
+### My Contact Info
 
 - **E-mail:** [seregapola@gmail.com](mailto:seregapola@gmail.com)
 - **GitHub:** [SergiiPol](https://github.com/SergiiPol)
@@ -14,7 +14,7 @@ Hello. I'm 38 years old. Currently, I am actively studying the JavaScript progra
 I also program with React Native and create 3D models in Blender. I find the work of a developer interesting.
 
 I learn quickly and am very organized. Additionally, I am communicative and would be happy to work
-in a team of dedicated professionals. Moreover, I have an analytical mindset and am ready to take 
+in a team of dedicated professionals. Moreover, I have an analytical mindset and am ready to take
 responsibility for my work and tasks.
 
 ### Skills

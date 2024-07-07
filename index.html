@@ -1,10 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <!-- prettier-ignore -->
     <meta charset="UTF-8">
+    <!-- prettier-ignore -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+    <title>Resume - Sergii Polushkin</title>
+    <script
+      src="https://kit.fontawesome.com/7af22f3d21.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <!-- prettier-ignore -->
+      <img
+        src="SergiiPolushkin.jpg"
+        alt="Sergii Polushkin"
+        style="width: 150px; height: auto"
+      >
+      <h1>Sergii Polushkin</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#contact">Contact Info</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#code-examples">Code Examples</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="contact">
+        <h2>My Contact Info</h2>
+        <p>
+          E-mail: <a href="mailto:seregapola@gmail.com">seregapola@gmail.com</a>
+        </p>
+        <p>GitHub: <a href="https://github.com/SergiiPol">SergiiPol</a></p>
+        <p>Telegram: @SergiiPol</p>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello. Currently, I am actively studying the JavaScript programming
+          language and the React framework. I also program with React Native and
+          create 3D models in Blender. I find the work of a developer
+          interesting.
+        </p>
+        <p>
+          I learn quickly and am very organized. Additionally, I am
+          communicative and would be happy to work in a team of dedicated
+          professionals. Moreover, I have an analytical mindset and am ready to
+          take responsibility for my work and tasks.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>ReactNative</li>
+          <li>TypeScript</li>
+          <li>HTML</li>
+          <li>CSS (Bootstrap, SASS/SCSS)</li>
+          <li>Git/GitHub</li>
+          <li>Figma</li>
+          <li>Blender</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <p><strong>Kharkov University of Food and Trade</strong></p>
+        <p>Enterprise economy</p>
+        <p><strong>RS-School</strong></p>
+        <p>React</p>
+        <p>JavaScript, TypeScript</p>
+      </section>
+
+      <section id="code-examples">
+        <h2>Code Examples</h2>
+        <pre><code>
+          function isIsogram(str) {
+            let newStr = str.toLowerCase();
+            let strLowerCase = [...new Set(newStr)];
+            if (strLowerCase.length === str.length || str.length === "") {
+              return true;
+            }
+            return false;
+          }
+        </code></pre>
+      </section>
+
+      <section id="languages">
+        <h2>Languages</h2>
+        <p>Russian - Native speaker</p>
+        <p>Spanish - B2</p>
+        <p>English - A2</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-section">
+        <a href="https://github.com/SergiiPol"
+          ><i class="fa-brands fa-github-square footer-icon"></i
+        ></a>
+      </div>
+      <div class="footer-section footer-year">&copy; 2024</div>
+      <div class="footer-section">
+        <a href="https://rs.school/courses/javascript-ru">
+          <!-- prettier-ignore -->
+          <img src="rs_school.svg" alt="RS School Logo" style="width: 100px">
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
